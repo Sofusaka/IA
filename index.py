@@ -90,7 +90,6 @@ while True:
        
          ##solucionar loop
 
-
         if 20 in sintomas_seleccionados:
 
             if 32 and 33 and 34 in sintomas_seleccionados:
@@ -118,13 +117,24 @@ while True:
             print("Secamiento por Hongo Botryodiplodia ")
 
         if 17 in sintomas_seleccionados:
-            if 12 and 13 and 15:
+            if 13 and 14 and 15 in sintomas_seleccionados:
                 print("Secamiento por Hongo Botryodiplodia")
                 break
-            if 16 and 18:
+            elif 16 and 18 in sintomas_seleccionados:
                 print("Secamiento por Melanconium")
                 break
-            
+            elif 43 and 44 in sintomas_seleccionados:
+                print("Mal de hilachas")
+                break
+        
+        if 39 and 40 and 41 and 42 in sintomas_seleccionados:
+            print("Secamiento letal o marchitez vascular")
+            break
+        
+        if 46 in sintomas_seleccionados:
+            if 45 and 47 and 48 in sintomas_seleccionados:
+                print("Anillo Marrón")
+                break
         if 1 and 2 and 3 and 4 in sintomas_seleccionados:
             print("Germen Marrón")
             break
@@ -135,6 +145,4 @@ while True:
             print("Fitotoxicidad por pesticidas")
             break
 
-        elif  16 and 17 and 18  in sintomas_seleccionados:
-            print("Secamiento por Melanconium")
-            break
+   
