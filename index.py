@@ -88,31 +88,34 @@ for sintoma in sintomas_seleccionados:
 print("===============ENFERMEDAD===============")
 
 while True:
-       if 35 and 36 in sintomas_seleccionados:
+        
+
+        
+        if 35 and 36 in sintomas_seleccionados:
          sintomas_seleccionados.append(22)
          print("Deficiencia de nitrógeno")
 
-    if 20 in sintomas_seleccionados:
-        if 19 and 21 and 22 in sintomas_seleccionados:
-            print("Amarillamiento de las hojas inferiores")
+        if 20 in sintomas_seleccionados:
+            if 19 and 21 and 22 in sintomas_seleccionados:
+                print("Amarillamiento de las hojas inferiores")
+                break
+
+            print("Amarillamiento letal de las hojas jóvenes ")
+            print("Pudrición letal de la flecha y el cogollo")
+            print("Deficiencia de magnesio ")
+            print("Deficiencia de nitrógeno ")
+            print("Pudrición de la parte superior del tronco ")
+            print("Secamiento por Hongo Botryodiplodia ")
+
+        if 1 and 2 and 3 and 4 in sintomas_seleccionados:
+            print("Germen Marrón")
             break
-
-        print("Amarillamiento letal de las hojas jóvenes ")
-        print("Pudrición letal de la flecha y el cogollo")
-        print("Deficiencia de magnesio ")
-        print("Deficiencia de nitrógeno ")
-        print("Pudrición de la parte superior del tronco ")
-        print("Secamiento por Hongo Botryodiplodia ")
-
-    if 1 and 2 and 3 and 4 in sintomas_seleccionados:
-        print("Germen Marrón")
-        break
-    elif 5 and 6 and 7 and 8 in sintomas_seleccionados:
-        print("Pudrición de la semilla")
-        break
-    elif  9 and 10 and 11 and 12 in sintomas_seleccionados:
-        print("Fitotoxicidad por pesticidas")
-        break
-    elif  16 and 17 and 18  in sintomas_seleccionados:
-        print("Secamiento por Melanconium")
-        break
+        elif 5 and 6 and 7 and 8 in sintomas_seleccionados:
+            print("Pudrición de la semilla")
+            break
+        elif  9 and 10 and 11 and 12 in sintomas_seleccionados:
+            print("Fitotoxicidad por pesticidas")
+            break
+        elif  16 and 17 and 18  in sintomas_seleccionados:
+            print("Secamiento por Melanconium")
+            break
