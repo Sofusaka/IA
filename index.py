@@ -85,15 +85,28 @@ print("===============Síntomas seleccionados===============")
 for sintoma in sintomas_seleccionados:
     print({informacion_dict[sintoma]})
 
-for sintoma in sintomas_seleccionados:
-     
-    for sintoma in sintomas_seleccionados:
-
-  if(sintoma==20):
+while True:
+      
+    if 1 and 2 and 3 and 4 in sintomas_seleccionados:
+        print("Germen Marrón")
+        break
+    elif 5 and 6 and 7 and 8 in sintomas_seleccionados:
+        print("Pudrición de la semilla")
+        break
+    elif  9 and 10 and 11 and 12 in sintomas_seleccionados:
+        print("Fitotoxicidad por pesticidas")
+        break
+    elif  16 and 17 and 18  in sintomas_seleccionados:
+        print("Secamiento por Melanconium")
+        break
+   
+    
+if(sintoma==20):
 
     print("Amarillamiento de las hojas inferiores")
     print("Amarillamiento letal de las hojas jóvenes ")
     print("Pudrición letal de la flecha y el cogollo")
+        
     print("Deficiencia de magnesio ")
     print("Deficiencia de nitrógeno ")
     print("Pudrición de la parte superior del tronco ")
