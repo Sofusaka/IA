@@ -124,11 +124,20 @@ while True:
                print("Pudrición letal de la flecha y el cogollo")
                break
             
-            
-         
+            if 37 and 38 in sintomas_seleccionados:
+                print("Pudrición de la parte superior del tronco ")
+                break
 
+            if 13 and 14 and 15 and 17 in sintomas_seleccionados:
+                print("Secamiento por Hongo Botryodiplodia")
+                break
+      
+        if 26 and 27 and 28 and 29:
+            print("Doblamiento de la base de las hojas")
+            break
+        
         if 17 in sintomas_seleccionados:
-            if 13 and 14 and 15 in sintomas_seleccionados:
+            if 13 and 14 and 15 and 20 in sintomas_seleccionados:
                 print("Secamiento por Hongo Botryodiplodia")
                 break
             elif 16 and 18 in sintomas_seleccionados:
@@ -146,6 +155,10 @@ while True:
             if 45 and 47 and 48 in sintomas_seleccionados:
                 print("Anillo Marrón")
                 break
+            if 30 and 31 and 20 in sintomas_seleccionados:
+                print ("Pudrición letal de la flecha y el cogollo")
+                break
+                
         if 1 and 2 and 3 and 4 in sintomas_seleccionados:
             print("Germen Marrón")
             break
