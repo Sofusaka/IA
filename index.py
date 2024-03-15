@@ -82,32 +82,45 @@ for sintoma in sintomas_seleccionados:
 
 print("===============ENFERMEDAD===============")
 
-while True:
 
-        if 35 and 36 in sintomas_seleccionados:
-         sintomas_seleccionados.append(22)
-         print("Deficiencia de nitrógeno")
-       
-         ##solucionar loop
+
+
+    
+def nitrogeno(array):
+    
+    
+    return True
+
+def magnesio(array):
+    
+    
+    return True
+
+while True:
+  
 
         if 20 in sintomas_seleccionados:
 
-            if 32 and 33 and 34 in sintomas_seleccionados:
-                sintomas_seleccionados.append(44)
-                print("Deficiencia de magnesio")
-
-            if 35 and 36 in sintomas_seleccionados:
-                sintomas_seleccionados.append(22)
-                print("Deficiencia de nitrógeno")
+            for i in range (1):
+                if 32 and 33 and 34 in sintomas_seleccionados:
+                    print("Deficiencia de magnesio")
+                    sintomas_seleccionados.apped(44)
+                    break
+        
+                if 35 and 36 in sintomas_seleccionados:
+                    print("Deficiencia de nitrógeno")
+                    sintomas_seleccionados.append(22)
+                    break
 
             if 19 and 21 and 22 in sintomas_seleccionados:
                 print("Amarillamiento de las hojas inferiores")
                 break
+
             if 23 and 24 and 25 in sintomas_seleccionados:
                 print("Amarillamiento letal de las hojas jóvenes ")
                 break
 
-            if 30 and 31 in sintomas_seleccionados:
+            if 30 and 31 and 46 in sintomas_seleccionados:
                print("Pudrición letal de la flecha y el cogollo")
                break
             
@@ -118,9 +131,6 @@ while True:
             if 13 and 14 and 15 and 17 in sintomas_seleccionados:
                 print("Secamiento por Hongo Botryodiplodia")
                 break
-
-            print("Deficiencia de magnesio ")
-            print("Deficiencia de nitrógeno ")
       
         if 26 and 27 and 28 and 29:
             print("Doblamiento de la base de las hojas")
