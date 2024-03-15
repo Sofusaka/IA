@@ -12,45 +12,40 @@ informacion = [
     "la radícula se desarrolla de color marrón e hinchada anormalmente.",
     "No presenta mohos.",
     "Manchas translúcidas en las hojas de color marrón oscuro.",
-    "machas están rodeadas por una zona de transición de color amarillento.",
     "manchas se secan y su centro es de color gris.",
     "presentan añublo de las hojas.",
-    "se secan las lesiones en su área central de color gris",
-    "Están en un ambiente con humedad alta",
+    "se secan las lesiones en su área central de color gris.",
+    "Están en un ambiente con humedad alta.",
     "deficiencias en la fertilización.",
-    "Se presentan en las palmas jóvenes (3 a 5 años)",
-    "Hojas amarillas",
+    "Se presentan en las palmas jóvenes (3 a 5 años).",
+    "Hojas Amarillas",
     "nivel freático superficial.",
-    "No presenta gran cantidad de boro.",
+    "Deficiencia de nitrógeno",
     "flechas afectadas por pudrición color crema a pardo.",
     "Las hojas inferiores, medias y basales conservan su aspecto y color verde normales.",
-    "Los tejidos basales de las flechas se pudren totalmente",
-    "tejidos basales con coloración blanco-amarillenta y olor fétido.",
-    "Floración femenina intensiva",
-    "Origen fisiogénico",
-    "Producción excesiva de racimos",
-    "Origen genético",
-    "Se secan progresivamente las hojas centrales de la corona",
-    "Presentan larvas de Tiquadra, Cephaloleia, Herminode, insulsa, Brassolis sophorae y Rhynchophorus palma.",
-    "Invasión por patógenos débiles como petalotipsis",
+    "Los tejidos basales de las flechas se pudren totalmente.",
+    "Floración femenina intensiva.",
+    "Origen fisiogénico.",
+    "Producción excesiva de racimos.",
+    "Origen genético.",
+    "Se secan progresivamente las hojas centrales de la corona.",
+    "Presentan larvas de Tiquadra, Cephaloleia, Herminode, insulsa, Brassolis sophorae.",
+    "Invasión por patógenos débiles como petalotipsis.",
     "Presencia de un subsuelo muy ácido.",
-    "Puntas de los folíolos se secan",
-    "Hay presencia de maleza",
-    "Procesos de desnitrificación",
+    "Puntas de los folíolos se secan.",
+    "Procesos de desnitrificación.",
     "Restricción en disponibilidad del nitrógeno.",
-    "Hongos invasores Fomes y Ganoderma",
+    "Hongos invasores Fomes y Ganoderma.",
     "El tronco se quiebra a una altura aproximada de 2 metros del suelo.",
-    "Hojas de color amarillento.",
-    "presencia de hongo Fusariumfusarium oxysporum",
-    "Coloración marrón bronceada",
-    "necrosis de la lámina foliar",
-    "Se pudren las inflorescencias",
+    "presencia de hongo Fusariumfusarium oxysporum.",
+    "Coloración marrón bronceada.",
+    "necrosis de la lámina foliar.",
+    "Se pudren las inflorescencias.",
     "Presencia del hongo Cortisium koleroga.",
-    "Presencia de maleza",
-    "Están en un ambiente con humedad alta",
-    "presencia de nemátodo Radinaphelenchus cocophillus",
-    "Presencia de agente vector Rhynchophorus palmarum",
-    "Compactación anormal de las flechas y hojas jóvenes de la corona",
+    "Presencia de maleza.",
+    "presencia de nemátodo Radinaphelenchus cocophillus.",
+    "Presencia de agente vector Rhynchophorus palmarum.",
+    "Compactación anormal de las flechas y hojas jóvenes de la corona.",
     "las inflorescencias abortan."
 ]
 
@@ -88,17 +83,35 @@ for sintoma in sintomas_seleccionados:
 print("===============ENFERMEDAD===============")
 
 while True:
+
         if 35 and 36 in sintomas_seleccionados:
          sintomas_seleccionados.append(22)
          print("Deficiencia de nitrógeno")
+       
+         ##solucionar loop
+
 
         if 20 in sintomas_seleccionados:
+
+            if 32 and 33 and 34 in sintomas_seleccionados:
+                sintomas_seleccionados.append(44)
+                print("Deficiencia de magnesio")
+
+            if 35 and 36 in sintomas_seleccionados:
+                sintomas_seleccionados.append(22)
+                print("Deficiencia de nitrógeno")
+
             if 19 and 21 and 22 in sintomas_seleccionados:
                 print("Amarillamiento de las hojas inferiores")
                 break
+            if 23 and 24 and 25 in sintomas_seleccionados:
+                print("Amarillamiento letal de las hojas jóvenes ")
+                break
 
-            print("Amarillamiento letal de las hojas jóvenes ")
-            print("Pudrición letal de la flecha y el cogollo")
+            if 30 and 31 in sintomas_seleccionados:
+               print("Pudrición letal de la flecha y el cogollo")
+               break
+            
             print("Deficiencia de magnesio ")
             print("Deficiencia de nitrógeno ")
             print("Pudrición de la parte superior del tronco ")
@@ -121,4 +134,7 @@ while True:
         elif  9 and 10 and 11 and 12 in sintomas_seleccionados:
             print("Fitotoxicidad por pesticidas")
             break
-    
+
+        elif  16 and 17 and 18  in sintomas_seleccionados:
+            print("Secamiento por Melanconium")
+            break
