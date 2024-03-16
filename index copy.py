@@ -87,79 +87,78 @@ print("===============ENFERMEDAD===============")
 
 
 
-while True:
 
+print(sintomas_seleccionados)
+
+if 20 in sintomas_seleccionados:
+
+            
+
+    
+    if 32 and 33 and 34 in sintomas_seleccionados:
+        print("Deficiencia de magnesio")
+        sintomas_seleccionados.append(49)
+        
+    if 35 and 36 in sintomas_seleccionados:
+        print("Deficiencia de nitrógeno")
+        sintomas_seleccionados.append(22)
+        
+    
+
+    if 19 in sintomas_seleccionados and 21 in sintomas_seleccionados  and 22 in sintomas_seleccionados and 49 in sintomas_seleccionados:
         print(sintomas_seleccionados)
+        print("Amarillamiento de las hojas inferiores")
+        
 
-        if 20 in sintomas_seleccionados:
-
-            
-
-            for i in range (1):
-                if 32 and 33 and 34 in sintomas_seleccionados:
-                    print("Deficiencia de magnesio")
-                    sintomas_seleccionados.append(49)
-                    
-                if 35 and 36 in sintomas_seleccionados:
-                    print("Deficiencia de nitrógeno")
-                    sintomas_seleccionados.append(22)
-                
-               
-
-            if (19 and 21 and 22 and 49) in sintomas_seleccionados:
-                print(sintomas_seleccionados)
-                print("Amarillamiento de las hojas inferiores")
-                break
-
-            elif 23 and 24 and 25 in sintomas_seleccionados:
-                print("Amarillamiento letal de las hojas jóvenes ")
-                break
-
-            elif 30 and 31 and 46 in sintomas_seleccionados:
-               print("Pudrición letal de la flecha y el cogollo")
-               break
-
-            elif 37 and 38 in sintomas_seleccionados:
-                print("Pudrición de la parte superior del tronco ")
-                break
-
-            elif 13 and 14 and 15 and 17 in sintomas_seleccionados:
-                print("Secamiento por Hongo Botryodiplodia")
-                break
-
+    elif 23 and 24 and 25 in sintomas_seleccionados:
+        print("Amarillamiento letal de las hojas jóvenes ")
       
-            elif 26 and 27 and 28 and 29 and 49 in sintomas_seleccionados:
-                print("Doblamiento de la base de las hojas")
-                break
 
-            
-        if 17 in sintomas_seleccionados:
-            if 13 and 14 and 15 in sintomas_seleccionados:
-                print("Secamiento por Hongo Botryodiplodia")
-                break
-            elif 16 and 18 in sintomas_seleccionados:
-                print("Secamiento por Melanconium")
-                break
-            elif 43 and 44 in sintomas_seleccionados:
-                print("Mal de hilachas")
-                break
+    elif 30 and 31 and 46 in sintomas_seleccionados:
+        print("Pudrición letal de la flecha y el cogollo")
+    
+
+    elif 37 and 38 in sintomas_seleccionados:
+        print("Pudrición de la parte superior del tronco ")
         
-        if 39 and 40 and 41 and 42 in sintomas_seleccionados:
-            print("Secamiento letal o marchitez vascular")
-            break
+
+    elif 13 and 14 and 15 and 17 in sintomas_seleccionados:
+        print("Secamiento por Hongo Botryodiplodia")
         
-        if 46 in sintomas_seleccionados:
-            if 45 and 47 and 48 in sintomas_seleccionados:
-                print("Anillo Marrón")
-                break
-        if 1 and 2 and 3 and 4 in sintomas_seleccionados:
-            print("Germen Marrón")
-            break
-        elif 5 and 6 and 7 and 8 in sintomas_seleccionados:
-            print("Pudrición de la semilla")
-            break
-        elif  9 and 10 and 11 and 12 in sintomas_seleccionados:
-            print("Fitotoxicidad por pesticidas")
-            break
+
+
+    elif 26 in sintomas_seleccionados and 27 in sintomas_seleccionados and 28 in sintomas_seleccionados and 29 in sintomas_seleccionados and 49 in sintomas_seleccionados:
+        print("Doblamiento de la base de las hojas")
+       
+
+    
+if 17 in sintomas_seleccionados:
+    if 13 and 14 and 15 in sintomas_seleccionados:
+        print("Secamiento por Hongo Botryodiplodia")
+        
+    elif 16 and 18 in sintomas_seleccionados:
+        print("Secamiento por Melanconium")
+        
+    elif 43 and 44 in sintomas_seleccionados:
+        print("Mal de hilachas")
+        
+
+if 39 and 40 and 41 and 42 in sintomas_seleccionados:
+    print("Secamiento letal o marchitez vascular")
+   
+
+if 46 in sintomas_seleccionados:
+    if 45 and 47 and 48 in sintomas_seleccionados:
+        print("Anillo Marrón")
+        
+if 1 and 2 and 3 and 4 in sintomas_seleccionados:
+    print("Germen Marrón")
+   
+elif 5 and 6 and 7 and 8 in sintomas_seleccionados:
+    print("Pudrición de la semilla")
+    
+elif  9 and 10 and 11 and 12 in sintomas_seleccionados:
+    print("Fitotoxicidad por pesticidas")
+    
 
    
